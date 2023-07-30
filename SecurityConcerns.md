@@ -1,12 +1,11 @@
 ```mermaid
----
-displayMode: compact
----
+
 gantt
     title Security Top Concerns
     dateFormat  YYYY-MM-DD
     tickinterval 1week
     todayMarker on
+    %% excludes    Weekends
     
 section Initiate Project
 Determine need                            :done, 2023-07-13, 1d
