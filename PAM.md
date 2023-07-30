@@ -14,7 +14,7 @@ gantt
     Initial Documentation           :done, 2023-06-19,10d
     Doc to Ron                      :done, 2023-07-10, 8d
     Write KB                        :2023-07-13, 5d
-    Name.#35; in PAM                :done, after a1, 10d
+    %%Name.#35" in PAM                :done, after a1, 10d
     Adjust email notification text  :2023-07-18,3d
     ITS Roleout                     :done, a3, 2023-07-17, 5d
     IT Roleout                      :done,a4, after a3, 10d
