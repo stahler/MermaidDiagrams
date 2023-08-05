@@ -3,6 +3,7 @@ As I gain knowledge with Mermaid, I will add more examples.
 Use the comments if you have questions or suggestions.
 
 ## FlowCharts ##
+### Simple flowchart ###
 ```
 flowchart TD
     A[Thirsty] -->|Get money| B(Find local pub)
@@ -47,11 +48,65 @@ flowchart LR
 ```
 
 ## Gantt Charts
+### Simple Gantt Chart ###
+```
+gantt
+    First Task  :t1, 2023-08-07, 1d
+    Second Task :t2, after t1, 1w
+    Third Task  :after t2, 1w
+
+```
 
 ```mermaid
-
 gantt
-First Task                          :t1, 2023-08-07, 1d
-Second Task                         :t2, after t1, 1w
-Third Task                          :after t2, 1w
+    First Task  :t1, 2023-08-07, 1d
+    Second Task :t2, after t1, 1w
+    Third Task  :after t2, 1w
+```
+
+### Adding a title, sections and some formatting ###
+```
+gantt
+    title Security Top Concerns
+    dateFormat  YYYY-MM-DD
+    tickinterval 1week
+    todayMarker on
+    %% excludes Weekends
+
+    section Initiate Project
+    First Task  :done, t1, 2023-08-01, 3d
+    Second Task :t2, after t1, 1w
+    Third Task  :after t2, 1w
+    Code Review :milestone, 2023-08-09, 0d
+
+    section Implementation
+    Forth Task  :t4, after t2, 3d
+    Fifth Task  :t5, after t4, 1w
+    Sixth Task  :t6, after t5, 1w
+
+    section Operationalize
+    Seventh Task  :crit, after t6, 1w
+```
+
+```mermaid
+gantt
+    title Security Top Concerns
+    dateFormat  YYYY-MM-DD
+    tickinterval 1week
+    todayMarker on
+    %% excludes Weekends
+
+    section Initiate Project
+    First Task  :done, t1, 2023-08-01, 3d
+    Second Task :t2, after t1, 1w
+    Third Task  :after t2, 1w
+    Code Review :milestone, 2023-08-09, 0d
+
+    section Implementation
+    Forth Task  :t4, after t2, 3d
+    Fifth Task  :t5, after t4, 1w
+    Sixth Task  :t6, after t5, 1w
+
+    section Operationalize
+    Seventh Task  :crit, after t6, 1w
 ```
