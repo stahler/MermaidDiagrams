@@ -1,6 +1,8 @@
 ### Following are numerous examples using Mermaid to create various types of graphs in GitHub.
 As I gain knowledge with Mermaid, I will add more examples.  
-Use the comments if you have questions.
+Use the comments if you have questions or suggestions.
+
+## FlowCharts ##
 ```
 flowchart TD
     A[Thirsty] -->|Get money| B(Find local pub)
