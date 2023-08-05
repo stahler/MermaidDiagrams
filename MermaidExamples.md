@@ -67,7 +67,7 @@ gantt
 ### Adding a title, sections and some formatting ###
 ```
 gantt
-    title Security Top Concerns
+    title Mermaid Gantt Example
     dateFormat  YYYY-MM-DD
     tickinterval 1week
     todayMarker on
@@ -90,7 +90,7 @@ gantt
 
 ```mermaid
 gantt
-    title Security Top Concerns
+    title Mermaid Gantt Example
     dateFormat  YYYY-MM-DD
     tickinterval 1week
     todayMarker on
@@ -109,4 +109,59 @@ gantt
 
     section Operationalize
     Seventh Task  :crit, after t6, 1w
+```
+
+## Pie Charts ##
+### Simple Pie Chart
+```
+pie 
+    title Genre of Books Read Last Year
+    "Mystery/Thriller"  :31
+    "History"           :10
+    "Technical"         :15
+    "Science Fiction    :27
+```
+
+```mermaid
+pie  
+    title Genre of Books Read Last Year
+    "Mystery/Thriller"  :31
+    "History"           :10
+    "Technical"         :15
+    "Science Fiction"   :27
+```
+
+### Pie Chart with added features 
+(theme can be: default, base, forest, dark, and neutral)
+```
+%%{init:
+    {
+        "theme":"base", 
+        "pie": {"textPosition": 0.5 }, 
+        "themeVariables": {"pieOuterStrokeWidth":"5px"}
+    }
+}%%
+pie showData
+    title Genre of Books Read Last Year
+    "Mystery/Thriller"  :31
+    "History"           :10
+    "Technical"         :15
+    "Science Fiction"   :27
+```
+
+```mermaid
+%%{init:
+    {
+        "theme":"base", 
+        "pie": {"textPosition": 0.5 }, 
+        "themeVariables": {"pieOuterStrokeWidth":"5px"}
+    }
+}%%
+
+pie showData
+    title Genre of Books Read Last Year
+    "Mystery/Thriller"  :31
+    "History"           :10
+    "Technical"         :15
+    "Science Fiction"   :27
 ```
