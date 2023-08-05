@@ -10,7 +10,7 @@ flowchart TD
     C -->|Bourbon| D[Old Forester]
     C -->|Beer| E[IPA]
 ```
-*Simple Flowchart*
+
 ```mermaid
 flowchart TD
     A[Thirsty] -->|Get money| B(Find local pub)
@@ -44,4 +44,14 @@ flowchart LR
     B --> C{Liquor or Beer?}
     C -->|Bourbon| D[Old Forester]
     C -->|Beer| E[IPA]
+```
+
+## Gantt Charts
+
+```mermaid
+
+gantt
+First Task                          :t1, 2023-08-07, 1d
+Second Task                         :t2, after t1, 1w
+Third Task                          :after t2, 1w
 ```
