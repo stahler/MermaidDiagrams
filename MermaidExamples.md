@@ -165,3 +165,5 @@ pie showData
     "Technical"         :15
     "Science Fiction"   :27
 ```
+## Quadrant Charts ##
+### Simple Quadrant Chart
