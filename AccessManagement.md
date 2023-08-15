@@ -8,7 +8,7 @@ gantt
     %% excludes    Weekends
     
 section Azure
-Domain Controller in Azure                  :      2023-08-21, 1w
+Domain Controller in Azure                  :      2023-08-28, 1w
 Entra utilization                           :p1,   2023-08-28, 1w
 Azure Groups                                :p2,   2023-08-28, 1w
 Azure Functions                             :p3,   2023-08-28, 1w
