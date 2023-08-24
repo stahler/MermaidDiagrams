@@ -17,8 +17,8 @@ Azure Key Store (driven by need)        :2023-08-01, 10M
 section Active Directory                    
 Add two Domain Controllers              :a1,2023-07-01, 3M
 Upgrade remaining DC to Server 2022     :a2,after a1, 6M
-Upgrade domain functional level         :a3,after a2, 8w
-Remote Loader to stand-alone server     :2023-09-01,2M
+Upgrade domain functional level         :a3,after a2, 9w
+Remote Loader to stand-alone server     :2023-09-01,10w
 Architect authentication for new data centers: 2023-10-01, 6M
 Upgrade DUO proxies                     :2023-11-01, 2M
 
