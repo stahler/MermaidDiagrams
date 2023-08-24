@@ -2,54 +2,55 @@
 
 gantt
     title Access Management Roadmap
-    dateFormat  YYYY-MM-DD
+    dateFormat  YY-MM-DD
     todayMarker on
+
     %% excludes    Weekends
     
 section Azure
-Domain Controller in Azure                  :      2023-08-28, 2w
-Entra utilization                           :p1,   2023-08-28, 2w
-Azure Groups                                :p2,   2023-08-28, 2w
-Azure Functions                             :p3,   2023-08-28, 2w
-Azure Key Store                             :p4,   2023-08-28, 2w
+Domain Controllers in Azure             :done,2023-07-01, 2M
+Entra utilization (as dictated by need) :2023-07-01, 12M
+Azure Groups (Explore attestations)     :2023-09-01, 6M
+Azure Functions (automation)            :2023-07-01, 4M
+Azure Key Store (driven by need)        :2023-08-01, 10M
 
 section Active Directory                    
-Upgrade domain functional level             :p6,   2023-09-04, 1w
-Add more on-prem domain controllers         :p7,   2023-09-04, 1w
-Remote Loader to stand-alone server         :p8,   2023-09-04, 1w
-
-section Varonis
-Implementation                              :p9,  2023-08-28, 2w
-Operationalize                              :p10, 2023-08-28, 2w
-
-section Automation opportunities
-Consolidation of scripts (jobs)             :p11, 2023-08-28, 2w
-IDM                                         :p12, 2023-08-28, 2w
-Workday                                     :p13, 2023-08-28, 2w
-IHIS                                        :p14, 2023-08-28, 2w
-IAM                                         :p15, 2023-08-28, 2w
-Other                                       :p16, 2023-08-28, 2w
-
-section Honey
-Pots                                        :p17, 2023-08-28, 2w
-Files                                       :p18, 2023-08-28, 2w
-Folders                                     :p19, 2023-08-28, 2w
-Users                                       :p20, 2023-08-28, 2w
-Domain Admin                                :p21, 2023-08-28, 2w
+Add two Domain Controllers              :a1,2023-07-01, 3M
+Upgrade remaining DC to Server 2022     :a2,after a1, 6M
+Upgrade domain functional level         :a3,after a2, 8w
+Remote Loader to stand-alone server     :2023-09-01,2M
+Architect authentication for new data centers: 2023-10-01, 6M
+Upgrade DUO proxies                     :2023-11-01, 2M
 
 section PAM
-Services                                    :p22, 2023-08-28, 2w
-Shared Accounts                             :p23, 2023-08-28, 2w
+Elevated Accounts                       :done,p1, 2023-07-01, 3M
+Shared Accounts                         :after p1,3M
+Services Accounts                       :after p1,5M
+
+section Varonis
+Implementation                          :v1, 2023-08-28, 4M
+Operationalize                          :after v1, 4M
+
+section Honey 
+See other chart                         :2023-08-01, 3M
+
+section Automation opportunities
+Consolidation of scripts (jobs)         :2023-09-01, 9w
+IDM                                     :2023-09-01, 12M
+Workday                                 :2023-09-01, 12M
+IHIS                                    :2023-09-01, 12M
+IAM                                     :2023-07-01, 12M
+Other                                   :2023-09-01, 12M
 
 section SOC
-Launch engagement                           :p24, 2023-08-28, 2w
+Launch engagement                       :2023-07-01, 12M
 
-section Application Security Program
-Infrastructure as code                      :p25, 2023-08-28, 2w
-API Security                                :p26, 2023-08-28, 2w
-Application portfolio                       :p27, 2023-08-28, 2w
+section Application Security Program   
+Infrastructure as code                  :2023-09-01, 10M
+API Security                            :2023-09-01, 10M
+Application portfolio                   :2023-09-01, 10M
 
 section Disaster Recovery
-Determine ownership                         :p28, 2023-08-28, 2w
+Determine ownership                     :2023-09-01, 3M
 
 ```
