@@ -1,17 +1,21 @@
 ```mermaid
-%%{init:
-    {
-        "theme":"neutral"
-        "gantt":{"topAxis":"true"}
+%%{init:{
+    "gantt":{
+        "titleTopMargin":20,
+        "numberSectionStyles":2,
+        "topAxis":"true",
+        "barHeight":30,
+        "barGap":15
     }
-}%%
+}}%%
+
 gantt
     title Honey Program
     dateFormat  YYYY-MM-DD
     todayMarker stroke-width:5px,stroke:green,opacity:0.5
     tickInterval 1week
     axisFormat %m/%d
-    %% excludes    Weekends
+    %% excludes 2023-09-04, Weekends
     
 section Mortal<br>User
 Mortal User Creation (MF)       :m1,2023-09-04,2w
