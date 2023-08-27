@@ -1,5 +1,10 @@
 ```mermaid
-
+%%{init:
+    {
+        "theme":"neutral"
+        "gantt":{"topAxis":"true"}
+    }
+}%%
 gantt
     title Honey Program
     dateFormat  YYYY-MM-DD
