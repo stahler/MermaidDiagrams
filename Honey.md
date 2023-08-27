@@ -3,7 +3,7 @@
 gantt
     title Honey Program
     dateFormat  YYYY-MM-DD
-    todayMarker on
+    todayMarker stroke-width:5px,stroke:green,opacity:0.5
     tickInterval 1week
     axisFormat %m/%d
     %% excludes    Weekends
