@@ -5,6 +5,7 @@ gantt
     dateFormat  YYYY-MM-DD
     todayMarker on
     tickInterval 1week
+    axisFormat %m/%d
     %% excludes    Weekends
     
 section Mortal User
