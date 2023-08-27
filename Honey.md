@@ -33,7 +33,7 @@ section Domain<br>Admin
 Domain Admin Creation (MF)      :d1,2023-09-04,2w
 Domain Admin Control (DR)       :after d1,2w
 
-section Global<br> Admin
+section Global<br>Admin
 Global Admin Creation (BG)      :g1,2023-09-04,2w
 Global Admin Control (BG)       :after g1,2w
 
