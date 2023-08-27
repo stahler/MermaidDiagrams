@@ -1,20 +1,24 @@
 ```mermaid
-%%{init:{
-    "gantt":{
-        "titleTopMargin":20,
-        "numberSectionStyles":2,
-        "topAxis":"true",
-        "barHeight":30,
-        "barGap":15
+%%{init:
+    {
+        "gantt":{
+            "titleTopMargin":25,
+            "leftPadding":80,
+            "numberSectionStyles":2,
+            %%"topAxis":"true",
+            "axisFormat":"%b-%Y",
+            "barHeight":30,
+            "barGap":15,
+            "useMaxWidth": true
+        }
     }
-}}%%
+}%%
 
 gantt
     title Honey Program
     dateFormat  YYYY-MM-DD
     todayMarker stroke-width:5px,stroke:green,opacity:0.5
     tickInterval 1week
-    axisFormat %m/%d
     %% excludes 2023-09-04, Weekends
     
 section Mortal<br>User
