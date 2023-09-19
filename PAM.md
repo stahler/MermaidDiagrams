@@ -11,10 +11,10 @@ gantt
     Initial Documentation           :done, 2023-06-19,10d
     Doc to Ron                      :done, 2023-07-10, 8d
     Write KB                        :done, 2023-07-13, 5d
-    Name.#35; in PAM                :done, after a1, 10d
+    Name.#35; in PAM                :done, a2, after a1, 10d
     Adjust email text               :done, 2023-07-18,5d
     ITS Roleout                     :done, a3, 2023-07-17, 1w
-    IT Roleout                      :done,a4, after a3, 10d
+    IT Roleout                      :done, a4, after a3, 10d
     OSUMC Roleout                   :done, 2023-08-07, 10d
 
     section Shared

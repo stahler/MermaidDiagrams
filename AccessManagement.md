@@ -22,14 +22,14 @@ gantt
     %% excludes 2023-09-04, Weekends
     
 section Azure
-Domain Controllers in Azure             :done,2023-07-01, 2M
+Two DCs in Azure                            :done,2023-07-01, 2M
 Entra utilization (as dictated by need) :2023-07-01, 12M
 Azure Groups (Explore attestations)     :2023-09-01, 6M
 Azure Functions (automation)            :2023-07-01, 4M
 Azure Key Store (driven by need)        :2023-08-01, 10M
 
 section Active Directory                    
-Add two Domain Controllers (onPrem)     :done, a1,2023-07-01, 3M
+Add two DCs (onPrem)                    :done, a1,2023-07-01, 3M
 Upgrade remaining DC to Server 2022     :a2,after a1, 6M
 Upgrade domain functional level         :a3,after a2, 10w
 Remote Loader to stand-alone server     :2023-09-01, 12w
