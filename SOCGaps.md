@@ -1,6 +1,6 @@
 ```mermaid
-
 mindmap
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#ff0000'}}}%%
     root((**SOC**))
         (Strengths)
             CrowdStrike
