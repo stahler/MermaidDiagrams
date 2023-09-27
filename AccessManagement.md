@@ -1,6 +1,5 @@
 ```mermaid
-%%{init:
-    {
+%%{init:{
         "gantt":{
             "titleTopMargin":25,
             "leftPadding":80,
