@@ -1,7 +1,17 @@
 ```mermaid
+%%{init:{
+    "quadrantChart": {
+        "chartWidth": 450, 
+        "chartHeight": 450,
+        "pointRadius": 0
+    },"themeVariables":{
+        "quadrant4Fill":"#FF8C00",
+        "quadrant2Fill":"#FF8C00",
+        "quadrant1Fill":"#00b300",
+        "quadrant3Fill": "#FF0000"}
+    }
+}%%
 quadrantChart
-     %%{init:{"quadrantChart": {"chartWidth": 450, "chartHeight": 450,"pointRadius": 0},"themeVariables":{"quadrant4Fill":"#FF8C00","quadrant2Fill":"#FF8C00","quadrant1Fill":"#00b300","quadrant3Fill": "#FF0000"} }}%%
-
     title Initial SOC Reinforcement Efforts
     x-axis High Cost --> Low Cost
     y-axis High Implement Time --> "Low Implement Time"
