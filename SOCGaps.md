@@ -1,7 +1,7 @@
 ```mermaid
 %%{init:{'theme':'base', 'themeVariables': {'primaryColor':'#FFFFFF','primaryTextColor':'#FFFFFF','cScale1':'#808080','cScale2':'#ff0000'}}}%%
 mindmap
-    root((SOC))
+    root{{SOC}}
         (Strengths)
             CrowdStrike
             ProofPoint
