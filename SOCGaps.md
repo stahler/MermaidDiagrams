@@ -1,6 +1,6 @@
 ```mermaid
-mindmap
 %%{init:{'theme':'base', 'themeVariables': {'primaryColor':'#FFFFFF','primaryTextColor':'#FFFFFF','cScale1':'#808080','cScale2':'#ff0000'}}}%%
+mindmap
     root((SOC))
         (Strengths)
             CrowdStrike
@@ -16,4 +16,5 @@ mindmap
                 Azure Alerts
                 Azure Capabilities
                 Saas Awareness
+            NOC
 ```
