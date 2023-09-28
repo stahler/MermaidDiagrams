@@ -1,7 +1,7 @@
 ```mermaid
 mindmap
-%%{init:{"theme":"base", "themeVariables": {"cScale0":"#411d4e", "titleColor":"white", "darkMode":true}}}%%
-    root((**SOC**))
+%%{init:{'theme':'base', 'themeVariables': {'primaryColor':'#FFFFFF','primaryTextColor':'#FFFFFF','cScale1':'#808080','cScale2':'#ff0000'}}}%%
+    root((SOC))
         (Strengths)
             CrowdStrike
             ProofPoint
@@ -10,7 +10,6 @@ mindmap
         (Gaps)
             Splunk Alerts
             Documentation
-             ::icon(fa fa-book)
                 Body of Knowledge
                 RunBooks
             id)Cloud( 
