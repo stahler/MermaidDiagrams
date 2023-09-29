@@ -7,8 +7,15 @@ mindmap
             ProofPoint
             SecureWorks
             Splunk Monitoring
+            Varonis
         (Gaps)
-            Splunk Alerts
+            Soar
+                Azure Alerts
+                Crowdstrike
+                Splunk Alerts
+                Nessus
+                ProofPoint
+                SecureWorks
             Documentation
                 Body of Knowledge
                 RunBooks
@@ -17,4 +24,5 @@ mindmap
                 Azure Capabilities
                 Saas Awareness
             NOC
+
 ```

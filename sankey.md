@@ -8,12 +8,6 @@ config:
 sankey-beta
 
 Agricultural 'waste',Bio-conversion,124.729
-Bio-conversion,Liquid,0.597
-Bio-conversion,Losses,26.862
-Bio-conversion,Solid,280.322
-Bio-conversion,Gas,81.144
-Biofuel imports,Liquid,35
-Biomass imports,Solid,35
 Coal imports,Coal,11.606
 Coal reserves,Coal,63.965
 Coal,Solid,75.571
@@ -57,21 +51,6 @@ Nuclear,Thermal generation,839.978
 Oil imports,Oil,504.287
 Oil reserves,Oil,107.703
 Oil,Liquid,611.99
-Other waste,Solid,56.587
-Other waste,Bio-conversion,77.81
-Pumped heat,Heating and cooling - homes,193.026
-Pumped heat,Heating and cooling - commercial,70.672
-Solar PV,Electricity grid,59.901
-Solar Thermal,Heating and cooling - homes,19.263
-Solar,Solar Thermal,19.263
-Solar,Solar PV,59.901
-Solid,Agriculture,0.882
-Solid,Thermal generation,400.12
-Solid,Industry,46.477
-Thermal generation,Electricity grid,525.531
-Thermal generation,Losses,787.129
-Thermal generation,District heating,79.329
-Tidal,Electricity grid,9.452
 UK land based bioenergy,Bio-conversion,182.01
 Wave,Electricity grid,19.013
 Wind,Electricity grid,289.366
