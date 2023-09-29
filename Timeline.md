@@ -1,9 +1,15 @@
 ```mermaid
-%%{init: { 'logLevel': 'debug', 'theme': 'default' , 'themeVariables': {
-              'cScale0': '#ff0000', 'cScaleLabel0': '#ffffff',
-              'cScale1': '#808080', 'cScaleLabel1': '#ffffff',
-              'cScale2': '#808080', 'cScaleLabel2': '#ffffff'
-       } } }%%
+%%{init:
+    {
+        'logLevel': 'debug', 
+        'theme': 'default' , 
+        'themeVariables': {
+            'cScale0': '#ff0000', 'cScaleLabel0': '#ffffff',
+            'cScale1': '#808080', 'cScaleLabel1': '#ffffff',
+            'cScale2': '#808080', 'cScaleLabel2': '#ffffff'
+        }
+    }
+}%%
 
 timeline
     title Data Security Tools Evolution
