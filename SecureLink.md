@@ -1,11 +1,12 @@
 
 ```mermaid
-flowchart TD
+flowchart LR
     A[SecureLink] --> B{New Vendor}
-    B --> |False| F{Nexus Account}
-    F --> |True| G[Manage own accounts]
-    F --> |False| H[Add New Account]
     B --> |True| C{BAA Exist}
+    B --> |False| F{Nexus Account}
+    F --> |True| G[Vendor Managed accounts]
+    F --> |False| H[Add New Account]
     C --> |True| D[Create Service Account]
-    C --> |False| E[Deny Request]
+    D --> F 
+    C --> |False| I[Deny Request]
 ```
