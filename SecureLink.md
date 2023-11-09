@@ -3,7 +3,7 @@
 flowchart LR
     A[SecureLink] --> B{New Vendor}
     B --> |True| R{RA Exist}
-    R --> |True| S4{S4 Data}
+    R --> |True| S4{S4 PHI}
     R --> |False| Q[Submit RA request]
     S4 --> |True| C{BAA Exist} 
     S4 --> |False| F
