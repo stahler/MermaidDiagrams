@@ -13,14 +13,14 @@ Guests,             Human Accounts,     26446
 Employees,          Human Accounts,     24951
 Community Connect,  Guests,             11741
 
-Adena,              Community Connect,  5668
-Avita,              Community Connect,  2513
-Memorial,           Community Connect,  1360
-Mercer,             Community Connect,  966
-Van Wert,           Community Connect,  934
-Madison,            Community Connect,  582
-Hocking,            Community Connect,  421
-Heart of Ohio,      Community Connect,  169
+ADE,Community Connect,5686
+AVI,Community Connect,2505
+MEM,Community Connect,1378
+MER,Community Connect,957
+VAN,Community Connect,814
+MCH,Community Connect,559
+HOC,Community Connect,421
+HOH,Community Connect,170
 
 Carelink,           Guests,             5950
 Student,            Guests,             2439 
