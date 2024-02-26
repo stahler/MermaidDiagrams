@@ -1,4 +1,7 @@
 ```Mermaid
+---
+title: Security Operations (SOC) - Functional
+---
 graph LR
     subgraph SOC
         subgraph Cyber
