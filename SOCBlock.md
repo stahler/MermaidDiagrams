@@ -14,10 +14,9 @@
 timeline
     title Security & Network Ops Center
     Information Technology 
-      : T1 - Support Desk
-      : T2 - Level 2 
-      : T3 - IT Operations 
-      : T4 - Security Tooling SMEs
+      : L1 - Support Desk
+      : L2 - IT Operations 
+      : L3 - Security Tooling SMEs / LAN
     LAN and External Areas
       : Cancer
       : Community Connect 
@@ -25,9 +24,10 @@ timeline
       : OSUP 
       : OSUHP
     Application Owners (examples) 
+      : Azure
       : EPIC
-      : Netscaler
       : M365
+      : Netscaler
 
 
 

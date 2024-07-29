@@ -9,31 +9,35 @@ config:
     height: 600
 ---
 sankey-beta
-Guests,             Human Accounts,     26446
-Employees,          Human Accounts,     25013
-Community Connect,  Guests,             11754
+Guests,             Human Accounts,     30849
+Employees,          Human Accounts,     26050
+Community Connect,  Guests,             12482
 
-ADE,Community Connect,5707
-AVI,Community Connect,2502
-MEM,Community Connect,1389
-MER,Community Connect,967
-VAN,Community Connect,816
-MCH,Community Connect,561
-HOC,Community Connect,421
-HOH,Community Connect,172
+ADE,                Community Connect,  5908
+AVI,                Community Connect,  2389
+MEM,                Community Connect,  1438
+MER,                Community Connect,  961
+VAN,                Community Connect,  826
+MCH,                Community Connect,  521
+HOC,                Community Connect,  402
+HOH,                Community Connect,  191
+LCA,                Community Connect,  10
 
-Carelink,           Guests,             6031
-Student,            Guests,             2452 
-Contractor,         Guests,             2172 
-OSU Physicians,     Guests,             2116 
-OSU Employee,       Guests,             805 
-Visiting Student,   Guests,             374 
-Volunteer,          Guests,             309 
-CPD,                Guests,             308
-MCOTH,              Guests,             96
-AcademicAffiliate,  Guests,             69
-VFUPND,             Guests,             31
-FE,                 Guests,             5
-PDOC,               Guests,             5
-SUPP,               Guests,             2
+Carelink,           Guests,             6650
+Contractor,         Guests,             2984
+OSU Physicians,     Guests,             2425
+Student,            Guests,             2699 
+OSU Employee,       Guests,             1075 
+Visiting Student,   Guests,             610 
+Volunteer,          Guests,             387 
+CPD,                Guests,             323
+MCOTH,              Guests,             272
+AcademicAffiliate,  Guests,             197
+VFUPND,             Guests,             118
+SUPP,               Guests,             13
+PDOC,               Guests,             7
+FE,                 Guests,             3
+COTC,               Guests,             2
+BOT,                Guests,             1
+ROTC,               Guests,             1
  ```
