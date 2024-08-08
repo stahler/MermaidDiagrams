@@ -1,28 +1,38 @@
 ```mermaid
-%%{init:{'theme':'base', 'themeVariables': {'primaryColor':'#FFFFFF','primaryTextColor':'#FFFFFF','cScale1':'#808080','cScale2':'#ff0000'}}}%%
+
 mindmap
-    root{{SOC}}
-        (Strengths)
-            CrowdStrike
-            ProofPoint
-            SecureWorks
-            Splunk Monitoring
-            Varonis
-        (Gaps)
-            Soar
-                Azure Alerts
-                Crowdstrike
-                Splunk Alerts
-                Nessus
-                ProofPoint
-                SecureWorks
-            Documentation
-                Body of Knowledge
-                RunBooks
-            id)Cloud( 
-                Azure Alerts
-                Azure Capabilities
-                Saas Awareness
-            NOC
+    root{{DevSecOps}}
+        (Culture & People)
+            Communication
+            Onboarding
+            Accountability
+            Team Health
+        (Plan & Develop)
+            Risk
+            Technical Debt
+            Bug Fix volume
+            Code Validation
+        (Build & Test)
+            Testing
+            Code Scanning
+            Build Validation
+            Core functionality testing
+        (Release & Deploy)
+            Deployments
+            Releases
+            Deployment remediation
+        (Operate)
+            Configuration
+            Patching
+            Red Teaming
+            Disaster Recovery
+        (Observe & Respond)
+            Vulnerability Scanning
+            Security Metrics
+            User Journey
+            MTTD & MTTR
+            PostMortems
+                        
+            
 
 ```
