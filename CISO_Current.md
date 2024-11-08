@@ -14,7 +14,10 @@ flowchart TD
 
     R --> GRC(GRC)
     GRC --> RM(Rosie McLennan - S3)
-    
+
+        R--> Res(Resiliency)
+    Res --> JK(Jennifer Kasnyik - S4)
+        
     R --> C(Compliance)
     C --> JN(Jennifer Niemeyer - S3)
     
