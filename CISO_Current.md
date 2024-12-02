@@ -26,6 +26,7 @@ flowchart TD
     AD --> MF(Marty French - S4)
     MF --> JL(Joe Lichty - S3)
     JL --> SF(Scott Farus - S4)
+    SF --> AS(April Stout - S3)
     
     DS --> IAM(IDM/IHIS<br> Mark Ambler)
     IAM --> DB(Dana Birrell)
