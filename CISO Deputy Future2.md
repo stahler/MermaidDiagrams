@@ -4,7 +4,7 @@ flowchart TD
     %% Tre and direct reports
     A[CISO<br>Tre Smith]    -->     R(Risk Management<br>Annie Kowaleski - M2)
     A                       -->     DS(Wes Stahler - M3)
-    A                       -->     AR(Arch & Control Validation<br>Rick Kastelic - M2)
+    
 
     %%  Risk Management Team - Annie
     R                       -->     Risk(Risk Assessments)
@@ -18,8 +18,7 @@ flowchart TD
     
     R                       -->     GRC(GRC/Compliance)
     GRC                     -->     RM(Rosie McLennan - S3)
-    RM                      -->     SH(Steve Hunt - S3)
-    SH                      -->     JN(Jennifer Niemeyer - S3)
+    RM                      -->     JN(Jennifer Niemeyer - S3)
 
     R                       -->     Res(Resiliency)
     Res                     -->     JK(Jennifer Kasnyik - S4)
@@ -45,21 +44,25 @@ flowchart TD
     ZC                      -->     JG(James Githuka - S2)
     JG                      -->     NF(Nakia Fenner - S2)
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-    %% SOC and Tooling
-    DS                      -->     SOC(SOC<br>Mudassir Hashmi - M2)
-        SOC                     -->     JW(Joe Woods - S2)
-    JW                      -->     DB(Dana Birrell - S2)
-    DB                      -->     PJ(Phil Jemison - S3)
-    PJ                      -->     GD(Open - S4)
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-    %% Security Architecture 
     
+    %% Security Architecture 
+    DS                      -->     AR(SOC Build<br>Rick Kastelic - M2) 
     AR                      -->     TH(Todd Hartman - S4)
     TH                      -->     BG(Brett Gardner -S3)   
     BG                      -->     DR(Doug Rotondo - S4)
     DR                      -->     RB(Rob Brumsfield - S4)
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    %% SOC and Tooling
+    DS                      -->     SOC(SOC Run<br>Mudassir Hashmi - M2)
+    SOC                     -->     JW(Joe Woods - S2)
+    JW                      -->     DB(Dana Birrell - S2)
+    DB                      -->     PJ(Phil Jemison - S3)
+    PJ                      -->     SH(Steve Hunt - S3)
+    SH                      -->     GD(Open - S4)
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+    
     
     
 ```
