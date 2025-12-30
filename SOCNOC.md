@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     participant User as User
     participant SD as Support Desk
@@ -19,3 +20,4 @@ sequenceDiagram
     else ITOPS, not a security event
         T23-->>User: Issue addressed
     end
+```
